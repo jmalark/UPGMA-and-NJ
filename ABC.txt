@@ -1,0 +1,6 @@
+#description here I guess
+
+     A   B   C
+A    0  20   10
+B   20   0   1
+C   10   1   0
