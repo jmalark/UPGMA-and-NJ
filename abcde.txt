@@ -1,4 +1,7 @@
-#from wikipedia example
+#from wikipedia example case
+#https://en.wikipedia.org/wiki/Neighbor_joining
+#result should match the figure given for the first example
+#https://en.wikipedia.org/wiki/Neighbor_joining#/media/File:Constructing_phylogenetic_tree_using_neighbor-joining_5_taxa_improved.svg
 
 
     a   b   c   d   e
