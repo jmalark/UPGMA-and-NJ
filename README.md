@@ -1,3 +1,3 @@
 # UPGMA-and-NJ
 Bioinformatics final project
-(Three person team)
+(collaborative with a three person team)
