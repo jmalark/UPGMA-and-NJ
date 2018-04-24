@@ -1,5 +1,4 @@
 import math
-from readMatrix import *
 
 
 def neighborjoin(distMat):
@@ -168,7 +167,6 @@ def distArrToVisualStyle(distArr):
     strVer = strVer[2:-2]
     strVer = "(" + strVer + ");"
 
-    print(strVer)
 
     i = 1
     tempCh = strVer[i]
@@ -178,7 +176,7 @@ def distArrToVisualStyle(distArr):
 
     strVer = "(" + strVer[i+2:]
 
-    print(strVer)
+
 
     i=1
     while i < len(strVer) - 2:
@@ -211,14 +209,11 @@ def distArrToVisualStyle(distArr):
 
 
 
-
-    print(strVer)
-
     i = 1
     while i < len(strVer) - 2:
-        #print("ord ", ord(strVer[i]))
+
         while (ord(strVer[i]) < 48 or ord(strVer[i]) > 57) and i < len(strVer) - 2:
-            #print("in 2nd while ", i)
+
             i += 1
 
         if i < len(strVer) - 2:
@@ -251,7 +246,4 @@ def distArrToVisualStyle(distArr):
 
 
 
-
-
-
-    print(strVer)
+    return strVer
