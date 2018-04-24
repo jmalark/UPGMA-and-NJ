@@ -1,6 +1,9 @@
 from neighborjoin import *
 from readMatrix import *
 import argparse
+from Bio import Phylo
+import pylab
+from io import StringIO
 
 
 def main():
@@ -31,6 +34,11 @@ def main():
 
     else:
         print("Error: invalid commandline arguments")
+        
+        
+    handle = StringIO(strVer)
+    tree = Phylo.read(handle, 'newick')
+    Phylo.draw(tree)
 
 
 main()
