@@ -121,6 +121,3 @@ def updateDist(shortest,matrix,copyMatrix,nodes,idxNodes,clusters):
 #     Phylo.draw(tree)
 #
 #
-
-
-main()
